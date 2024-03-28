@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nirvana Cafe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/60b1303fc9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1>Nirvana Cafe</h1>
+        <div class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#hours">Hours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Nirvana Cafe – your digital escape into the world of coffee
+          and code. At Nirvana Cafe, we're more than just a coffee shop. We're a
+          hub of connectivity, creativity, and community nestled in the heart of
+          2000 Rue Sainte-Catherine. Since 2015, we've been serving up delicious
+          coffee, mouthwatering pastries, and a welcoming atmosphere to locals
+          and visitors alike.
+        </p>
+        <p>
+          In addition to our delectable coffee and baked goods, we also offer
+          high-speed internet access, making us the perfect destination for
+          digital nomads and tech-savvy individuals. Whether you need to check
+          your email, catch up on work, or simply browse the web, you can count
+          on Nirvana Cafe to keep you connected.
+        </p>
+        <p>
+          So whether you're dropping by for your morning caffeine fix, settling
+          in for a productive work session, or catching up with friends over a
+          latte, we invite you to make yourself at home at Nirvana Cafe. We
+          can't wait to welcome you!
+        </p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="./images/cofee2.webp" alt="Snow" style="width: 100%" />
+        </div>
+        <div class="column">
+          <img src="./images/bread.webp" alt="Forest" style="width: 100%" />
+        </div>
+        <div class="column">
+          <img
+            src="./images/mocktail.jpeg"
+            alt="Mountains"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <input
+          type="checkbox"
+          id="coffee-classics-toggle"
+          class="accordion-toggle"
+          checked
+        />
+        <label for="coffee-classics-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp Coffee Classics</label
+        >
+        <div class="panel">
+          <ul>
+            <li>
+              Americano: A robust espresso diluted to perfection with hot water.
+            </li>
+            <li>
+              Cappuccino: A harmonious blend of espresso, steamed milk, and a
+              cloud of foam.
+            </li>
+            <li>
+              Latte: Our signature espresso softened with steamed milk and a
+              touch of art.
+            </li>
+            <li>
+              Mocha: A decadent mix of chocolate, espresso, and steamed milk,
+              topped with whipped cream.
+            </li>
+          </ul>
+        </div>
+
+        <input
+          type="checkbox"
+          id="signature-brews-toggle"
+          class="accordion-toggle"
+        />
+        <label for="signature-brews-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp Signature Brews</label
+        >
+        <div class="panel">
+          <ul>
+            <li>
+              Lasalle Special: Our in-house favorite, a secret blend of
+              single-origin beans.
+            </li>
+            <li>
+              Techie’s Turbo: A double shot of espresso with a hint of caramel,
+              for those late-night projects.
+            </li>
+            <li>
+              Writer’s Retreat: A soothing latte with vanilla and a dash of
+              cinnamon.
+            </li>
+          </ul>
+        </div>
+
+        <input
+          type="checkbox"
+          id="tea-infusion-toggle"
+          class="accordion-toggle"
+        />
+        <label for="tea-infusion-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp Teas & Infusions</label
+        >
+        <div class="panel">
+          <ul>
+            <li>
+              Classic Earl Grey: A timeless black tea with the distinct aroma of
+              bergamot.
+            </li>
+            <li>
+              Green Tranquility: A delicate green tea, perfect for a peaceful
+              moment.
+            </li>
+            <li>
+              Herbal Harmony: A caffeine-free blend of soothing herbs and
+              flowers.
+            </li>
+          </ul>
+        </div>
+
+        <input
+          type="checkbox"
+          id="sweet-treats-toggle"
+          class="accordion-toggle"
+        />
+        <label for="sweet-treats-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp Sweet Treats</label
+        >
+        <div class="panel">
+          <ul>
+            <li>Croissants: Freshly baked, buttery, and flaky.</li>
+            <li>Muffins: Choose from blueberry, chocolate chip, or bran.</li>
+            <li>
+              Cookies: Classic chocolate chip, oatmeal raisin, or white
+              chocolate macadamia.
+            </li>
+          </ul>
+        </div>
+
+        <input
+          type="checkbox"
+          id="light-bites-toggle"
+          class="accordion-toggle"
+        />
+        <label for="light-bites-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp Light Bites</label
+        >
+        <div class="panel">
+          <ul>
+            <li>Croissants: Freshly baked, buttery, and flaky.</li>
+            <li>Muffins: Choose from blueberry, chocolate chip, or bran.</li>
+            <li>
+              Cookies: Classic chocolate chip, oatmeal raisin, or white
+              chocolate macadamia.
+            </li>
+          </ul>
+        </div>
+
+        <input
+          type="checkbox"
+          id="little-ones-toggle"
+          class="accordion-toggle"
+        />
+        <label for="little-ones-toggle" class="accordion"
+          ><i class="fa-solid fa-list"></i>&nbsp &nbsp For the Little
+          Ones</label
+        >
+        <div class="panel">
+          <ul>
+            <li>
+              Mini Hot Chocolate: A smaller portion with plenty of whipped cream
+              and a sprinkle of marshmallows.
+            </li>
+            <li>
+              Babycino: Frothy milk dusted with cocoa, just like the grown-ups’!
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="hours">
+      <div class="container">
+        <h2>Opening Hours</h2>
+        <table>
+          <tr>
+            <th>Day</th>
+            <th>Opening Time</th>
+            <th>Closing Time</th>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>8 AM</td>
+            <td>8 PM</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>8 AM</td>
+            <td>8 PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>8 AM</td>
+            <td>8 PM</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>8 AM</td>
+            <td>8 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>8 AM</td>
+            <td>10 PM</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Weekend</td>
+            <td>9 AM</td>
+            <td rowspan="2">11 PM</td>
+          </tr>
+          <tr>
+            <td>9 AM (Brunch Special)</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <section class="contact-col">
+        <h2>Contact Us</h2>
+        <p>Questions are reservation ?</p>
+        <p>
+          <i class="fa-solid fa-envelope"></i> &nbsp &nbsp
+          contact@nirvanacafe.com &nbsp &nbsp | &nbsp &nbsp<i
+            class="fa-solid fa-phone"
+          ></i>
+          &nbsp &nbsp123-456-7890
+        </p>
+        <p></p>
+        <br />
+        <br /><br />
+        <center>
+          <form id="contact-form">
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter E-mail Address"
+              required
+            />
+            <input
+              type="text"
+              id="subject"
+              placeholder="Enter Your Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea
+            ><br />
+            <center>
+              <button type="submit" class="hero-btn">Send Message</button>
+            </center>
+          </form>
+        </center>
+      </section>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2024 Nirvana Cafe | All rights reserved.</p>
+        <div class="col-md-12 text-center">
+          <!-- Optional social media icons -->
+          <a href="#" class="btn btn-outline-light me-3 mr-3"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="btn btn-outline-light me-3 mr-3"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="btn btn-outline-light me-3 mr-3"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="btn btn-outline-light me-3"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const menuIcon = document.querySelector(".menu-icon");
+      const menu = document.querySelector(".menu");
+
+      menuIcon.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+
+      const accordionToggles = document.querySelectorAll(".accordion-toggle");
+
+      // Add event listener to each accordion toggle
+      accordionToggles.forEach((toggle) => {
+        toggle.addEventListener("change", function () {
+          // Close all panels except the one clicked
+          accordionToggles.forEach((otherToggle) => {
+            if (otherToggle !== toggle) {
+              otherToggle.checked = false;
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
